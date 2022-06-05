@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="1000.0"
+      prefWidth="1000.0" xmlns="http://javafx.com/javafx/11.0.2" xmlns:fx="http://javafx.com/fxml/1"
+      fx:controller="chess.controls.GameController">
+    <ImageView fitHeight="900.0" fitWidth="800.0" layoutX="106.0" layoutY="50.0" pickOnBounds="true"
+               preserveRatio="true">
+        <Image url="@../image/board.png"/>
+    </ImageView>
+    <GridPane fx:id="board" alignment="CENTER" layoutX="106.0" layoutY="50.0" prefHeight="900.0" prefWidth="800.0">
+        <columnConstraints>
+            <ColumnConstraints halignment="CENTER" hgrow="SOMETIMES" maxWidth="90.0" minWidth="80.0" prefWidth="90.0"/>
+            <ColumnConstraints halignment="CENTER" hgrow="SOMETIMES" maxWidth="90.0" minWidth="80.0" prefWidth="90.0"/>
+            <ColumnConstraints halignment="CENTER" hgrow="SOMETIMES" maxWidth="90.0" minWidth="80.0" prefWidth="90.0"/>
+            <ColumnConstraints halignment="CENTER" hgrow="SOMETIMES" maxWidth="90.0" minWidth="80.0" prefWidth="90.0"/>
+            <ColumnConstraints halignment="CENTER" hgrow="SOMETIMES" maxWidth="90.0" minWidth="80.0" prefWidth="90.0"/>
+            <ColumnConstraints halignment="CENTER" hgrow="SOMETIMES" maxWidth="90.0" minWidth="80.0" prefWidth="90.0"/>
+            <ColumnConstraints halignment="CENTER" hgrow="SOMETIMES" maxWidth="90.0" minWidth="80.0" prefWidth="90.0"/>
+            <ColumnConstraints halignment="CENTER" hgrow="SOMETIMES" maxWidth="90.0" minWidth="80.0" prefWidth="90.0"/>
+            <ColumnConstraints halignment="CENTER" hgrow="SOMETIMES" maxWidth="90.0" minWidth="80.0" prefWidth="90.0"/>
+        </columnConstraints>
+        <rowConstraints>
+            <RowConstraints maxHeight="90.0" minHeight="90.0" prefHeight="90.0" valignment="CENTER" vgrow="SOMETIMES"/>
+            <RowConstraints maxHeight="90.0" minHeight="90.0" prefHeight="90.0" valignment="CENTER" vgrow="SOMETIMES"/>
+            <RowConstraints maxHeight="90.0" minHeight="90.0" prefHeight="90.0" valignment="CENTER" vgrow="SOMETIMES"/>
+            <RowConstraints maxHeight="90.0" minHeight="90.0" prefHeight="90.0" valignment="CENTER" vgrow="SOMETIMES"/>
+            <RowConstraints maxHeight="90.0" minHeight="90.0" prefHeight="90.0" valignment="CENTER" vgrow="SOMETIMES"/>
+            <RowConstraints maxHeight="90.0" minHeight="90.0" prefHeight="90.0" valignment="CENTER" vgrow="SOMETIMES"/>
+            <RowConstraints maxHeight="90.0" minHeight="90.0" prefHeight="90.0" valignment="CENTER" vgrow="SOMETIMES"/>
+            <RowConstraints maxHeight="90.0" minHeight="90.0" prefHeight="90.0" valignment="CENTER" vgrow="SOMETIMES"/>
+            <RowConstraints maxHeight="90.0" minHeight="90.0" prefHeight="90.0" valignment="CENTER" vgrow="SOMETIMES"/>
+            <RowConstraints maxHeight="90.0" minHeight="90.0" prefHeight="90.0" valignment="CENTER" vgrow="SOMETIMES"/>
+        </rowConstraints>
+    </GridPane>
+
+</Pane>
