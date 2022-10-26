@@ -477,11 +477,25 @@ public class GameController {
         var repository = new GameHistoryRepository();
 
         GameHistory[] gameHistory;
+        GameHistory[] gameHistories;
         if (new File(path).exists()){
             System.out.println("exist");
         }
 
+
+
         gameHistory = repository.getJson(new File(path));
+        gameHistories=repository.getJson(new File("src/main/resources/load/history.json"));
+
+        for (GameHistory value : gameHistories) {
+            if (playerBlack.equals(value.getPlayerBlack()) && playerRed.equals(value.getPlayerRed())) {
+                movementList = value.getMovementList();
+                System.out.println(movementList);
+                ObservableList<String> strList = FXCollections.observableArrayList(movementList);
+                listView.setItems(strList);
+            }
+
+        }
 
         for (GameHistory history : gameHistory) {
             Chess chess = new Chess();
