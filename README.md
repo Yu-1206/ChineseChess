@@ -15,3 +15,15 @@
 (6) When the cannon(炮/砲) captures a piece, it has to jump over only 1 piece but it can be of either side of the target.
 
 (7) Before a pawn(兵/卒) crosses the "river border", it may only move one step forward; after it crosses the "river border", it may move one step forward or one step sideways, but not backward.
+
+
+##Simple Description
+(1)Player need to enter the name to start the game. In the game interface, there are 4 available button: resign, regret, save, quit.
+resign is means surrender to opponent. regret button allow player to undo the last move. player
+can save the incomplete game by click save button. when player click quit button, the game will be closed.
+
+(2)Player can reload incomplete game if s/he saved the game in the previous playing.
+
+(3)during the game, red side goes first, and there will be hinted that show the movable place.
+
+(4)chess movement will be shown on the Movement list in the game interface
