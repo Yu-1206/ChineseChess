@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/11.0.2" xmlns:fx="http://javafx.com/fxml/1" fx:controller="chess.controls.LoginController">
+   <Label layoutX="113.0" layoutY="190.0" prefHeight="60.0" prefWidth="230.0" text="Red Side Player's Name :">
+      <font>
+         <Font size="17.0" />
+      </font>
+   </Label>
+   <Label layoutX="113.0" layoutY="281.0" prefHeight="60.0" prefWidth="230.0" text="Black Side Player's Name : ">
+      <font>
+         <Font size="17.0" />
+      </font>
+   </Label>
+   <TextField fx:id="playerRed" layoutX="351.0" layoutY="199.0" prefHeight="43.0" prefWidth="192.0" promptText="Enther the Red player' name!" />
+   <TextField fx:id="playerBlack" layoutX="351.0" layoutY="290.0" prefHeight="43.0" prefWidth="192.0" promptText="Enther the Black player' name!" />
+   <Button fx:id="startButton" layoutX="319.0" layoutY="359.0" mnemonicParsing="false" onAction="#startGame" prefHeight="68.0" prefWidth="162.0" text="Start">
+      <font>
+         <Font size="31.0" />
+      </font>
+   </Button>
+   <Label layoutX="252.0" layoutY="61.0" prefHeight="60.0" prefWidth="198.0" text="Login Page">
+      <font>
+         <Font size="36.0" />
+      </font>
+   </Label>
+</Pane>

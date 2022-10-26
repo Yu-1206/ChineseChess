@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<Pane prefHeight="900.0" prefWidth="900.0" xmlns="http://javafx.com/javafx/11.0.2" xmlns:fx="http://javafx.com/fxml/1" fx:controller="chess.controls.HistoryBoardController">
+    <TableView fx:id="tableView" layoutX="116.0" layoutY="126.0" prefHeight="612.0" prefWidth="685.0">
+        <columns>
+            <TableColumn fx:id="playerRed" prefWidth="150.0" text="Red player's name" />
+            <TableColumn fx:id="playerBlack" prefWidth="134.0" text="Black player's name" />
+            <TableColumn fx:id="gameState" minWidth="1.0" prefWidth="132.0" text="State" />
+            <TableColumn fx:id="winner" prefWidth="132.0" text="Winner" />
+            <TableColumn fx:id="duration" prefWidth="132.0" text="Time Used" />
+        </columns>
+    </TableView>
+    <Button onAction="#quit" fx:id="quitButton" layoutX="383.0" layoutY="784.0" mnemonicParsing="false"  prefHeight="60.0" prefWidth="150.0" text="Quit">
+        <font>
+            <Font size="24.0" />
+        </font>
+    </Button>
+    <Label layoutX="291.0" layoutY="32.0" text="History Board">
+        <font>
+            <Font size="56.0" />
+        </font>
+    </Label>
+</Pane>

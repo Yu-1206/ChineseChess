@@ -1,0 +1,20 @@
+.selected {
+   -fx-border-style: dashed;
+   -fx-border-color: #FF6A6A;
+   -fx-border-width: 4px;
+}
+
+.movable {
+   -fx-border-style: solid;
+   -fx-border-color: black;
+   -fx-border-width: 2px;
+}
+
+.list-cell{
+    -fx-background-color: transparent;
+}
+
+.list-view{
+    -fx-background-color: transparent;
+    -fx-border-style: solid;
+}

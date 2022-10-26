@@ -1,0 +1,212 @@
+[
+  {
+    "chessName": "chariot",
+    "row": 0,
+    "col": 0,
+    "color": "B",
+    "ID": 0
+  },
+  {
+    "chessName": "horse",
+    "row": 0,
+    "col": 1,
+    "color": "B",
+    "ID": 1
+  },
+  {
+    "chessName": "elephant",
+    "row": 0,
+    "col": 2,
+    "color": "B",
+    "ID": 2
+  },
+  {
+    "chessName": "guard",
+    "row": 0,
+    "col": 3,
+    "color": "B",
+    "ID": 3
+  },
+  {
+    "chessName": "general",
+    "row": 0,
+    "col": 4,
+    "color": "B",
+    "ID": 4
+  },
+  {
+    "chessName": "guard",
+    "row": 1,
+    "col": 4,
+    "color": "B",
+    "ID": 5
+  },
+  {
+    "chessName": "elephant",
+    "row": 0,
+    "col": 6,
+    "color": "B",
+    "ID": 6
+  },
+  {
+    "chessName": "horse",
+    "row": 0,
+    "col": 7,
+    "color": "B",
+    "ID": 7
+  },
+  {
+    "chessName": "chariot",
+    "row": 0,
+    "col": 8,
+    "color": "B",
+    "ID": 8
+  },
+  {
+    "chessName": "cannon",
+    "row": 2,
+    "col": 1,
+    "color": "B",
+    "ID": 9
+  },
+  {
+    "chessName": "cannon",
+    "row": 2,
+    "col": 7,
+    "color": "B",
+    "ID": 10
+  },
+  {
+    "chessName": "pawn",
+    "row": 3,
+    "col": 0,
+    "color": "B",
+    "ID": 11
+  },
+  {
+    "chessName": "pawn",
+    "row": 3,
+    "col": 2,
+    "color": "B",
+    "ID": 12
+  },
+  {
+    "chessName": "pawn",
+    "row": 5,
+    "col": 6,
+    "color": "B",
+    "ID": 14
+  },
+  {
+    "chessName": "pawn",
+    "row": 3,
+    "col": 8,
+    "color": "B",
+    "ID": 15
+  },
+  {
+    "chessName": "chariot",
+    "row": 9,
+    "col": 0,
+    "color": "R",
+    "ID": 0
+  },
+  {
+    "chessName": "horse",
+    "row": 9,
+    "col": 1,
+    "color": "R",
+    "ID": 1
+  },
+  {
+    "chessName": "elephant",
+    "row": 9,
+    "col": 2,
+    "color": "R",
+    "ID": 2
+  },
+  {
+    "chessName": "guard",
+    "row": 9,
+    "col": 3,
+    "color": "R",
+    "ID": 3
+  },
+  {
+    "chessName": "general",
+    "row": 9,
+    "col": 4,
+    "color": "R",
+    "ID": 4
+  },
+  {
+    "chessName": "guard",
+    "row": 9,
+    "col": 5,
+    "color": "R",
+    "ID": 5
+  },
+  {
+    "chessName": "elephant",
+    "row": 9,
+    "col": 6,
+    "color": "R",
+    "ID": 6
+  },
+  {
+    "chessName": "horse",
+    "row": 9,
+    "col": 7,
+    "color": "R",
+    "ID": 7
+  },
+  {
+    "chessName": "chariot",
+    "row": 9,
+    "col": 8,
+    "color": "R",
+    "ID": 8
+  },
+  {
+    "chessName": "cannon",
+    "row": 7,
+    "col": 1,
+    "color": "R",
+    "ID": 9
+  },
+  {
+    "chessName": "cannon",
+    "row": 7,
+    "col": 4,
+    "color": "R",
+    "ID": 10
+  },
+  {
+    "chessName": "pawn",
+    "row": 6,
+    "col": 0,
+    "color": "R",
+    "ID": 11
+  },
+  {
+    "chessName": "pawn",
+    "row": 6,
+    "col": 2,
+    "color": "R",
+    "ID": 12
+  },
+  {
+    "chessName": "pawn",
+    "row": 4,
+    "col": 4,
+    "color": "R",
+    "ID": 13
+  },
+  {
+    "chessName": "pawn",
+    "row": 6,
+    "col": 8,
+    "color": "R",
+    "ID": 15
+  }
+]

@@ -1,0 +1,9 @@
+[
+  {
+    "playerRed": "zhang",
+    "playerBlack": "yu",
+    "gameState": "Completed",
+    "winner": "Black",
+    "duration": 8
+  }
+]

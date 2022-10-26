@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<Pane prefHeight="900.0" prefWidth="900.0" xmlns="http://javafx.com/javafx/11.0.2" xmlns:fx="http://javafx.com/fxml/1" fx:controller="chess.controls.GameHistoryController">
+    <TableView fx:id="tableView" layoutX="116.0" layoutY="126.0" prefHeight="612.0" prefWidth="685.0">
+        <columns>
+            <TableColumn fx:id="playerRed" prefWidth="339.0" text="Red player's name" />
+            <TableColumn fx:id="playerBlack" prefWidth="345.0" text="Black player's name" />
+        </columns>
+    </TableView>
+   <Button fx:id="loadButton" onAction="#startGame" layoutX="377.0" layoutY="771.0" mnemonicParsing="false" prefHeight="49.0" prefWidth="146.0" text="Load">
+      <font>
+         <Font size="25.0" />
+      </font>
+   </Button>
+
+</Pane>
